@@ -27,7 +27,7 @@ import java.util.Arrays;
             s1 and s2 consist of lowercase English letters.
  */
 public class PermutationInString {
-    //we can use solve this problem using sliding window 
+    //we can solve this problem using sliding window 
     // time - O(alphabet_size * len(s2))
     public static boolean findPermutationInString(String s1, String s2) {
         int s1Len = s1.length();
