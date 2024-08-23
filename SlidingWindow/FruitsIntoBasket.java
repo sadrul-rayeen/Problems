@@ -65,8 +65,8 @@ public class FruitsIntoBasket {
         return maxLength;
 
     }
-    // time -> O(n)
-    // space -> O(n) --> for hashmap
+    // time -> O(n + n) ---> O(2n)
+    // space -> O(3) --> for store only 3 values
     public static int findMaxValueOptimal(int[] fruits) {
         int n = fruits.length;
         int left = 0;
