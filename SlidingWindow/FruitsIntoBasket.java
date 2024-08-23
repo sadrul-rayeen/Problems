@@ -45,7 +45,7 @@ import java.util.Set;
 public class FruitsIntoBasket {
 
     // time - O(n * n)
-    // space - O(3) --> storing value 3 values
+    // space - O(3) --> storing only 3 values
     public static int findMaxValueBruteForce(int[] fruits) {
         int n = fruits.length;
         int maxLength = 0;
