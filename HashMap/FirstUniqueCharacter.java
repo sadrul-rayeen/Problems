@@ -3,6 +3,7 @@ package HashMap;
 public class FirstUniqueCharacter {
     public static int findUniqueCharacter(String s) {
         int[] charCount = new int[26];
+        
         for (int i = 0; i < s.length(); i++) {
             charCount[s.charAt(i) - 'a']++;
         }
