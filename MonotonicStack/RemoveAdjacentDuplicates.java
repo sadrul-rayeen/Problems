@@ -11,7 +11,7 @@ public class RemoveAdjacentDuplicates {
             } else {
                 sb.append(c);
             }
-        }
+        } 
 
         return sb.toString();
         
