@@ -15,7 +15,7 @@ package TwoPointers;
  
     Constraints:
         1 <= s.length <= 105
-        s[i] is a printable ascii character.
+        s[i] is a printable ascii character...
  */
 public class ReverseString {
     // Basically we can solve using two pointers
