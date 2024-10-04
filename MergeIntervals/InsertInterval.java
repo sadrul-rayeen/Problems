@@ -33,7 +33,7 @@ public class InsertInterval {
     }
     public static void main(String[] args) {
         int[][] intervals = { {1,5} };
-        int[] newInterval = { 6, 7};
+        int[] newInterval = { 6, 8};
 
         int[][] result = insertInterval(intervals, newInterval);
 
