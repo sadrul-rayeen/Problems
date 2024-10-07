@@ -45,7 +45,7 @@ public class SubArrayProductLessThanK {
     }
     public static void main(String[] args) {
         int[] num = { 1,2,3 };
-        int k = 0;
+        int k = 1;
 
         // int result = findProductBruteForce(num, k);
         int result = findProductOptimal(num, k);
