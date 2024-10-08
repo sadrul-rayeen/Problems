@@ -48,7 +48,7 @@ public class DailyTemp {
         return result;
     }
     public static void main(String[] args) {
-        int[] temperatures = { 30,40,50,60 };
+        int[] temperatures = { 30,40,50,60, 70 };
 
         // int[] result = findDailyTempBruteForce(temperatures);
         int[] result = findDailyTempBruteOptimal(temperatures);
