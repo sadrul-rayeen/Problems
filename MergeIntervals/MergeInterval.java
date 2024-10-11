@@ -34,7 +34,7 @@ public class MergeInterval {
         return result.toArray(new int[result.size()][]);
     }
     public static void main(String[] args) {
-        int[][] intervals = { { 1, 3 }, { 2, 6 }, { 8, 10 }, { 15, 18 } };
+        int[][] intervals = { { 1, 3 }, { 2, 6 }, { 7, 10 }, { 15, 18 } };
 
         int[][] result = findNonOverlap(intervals);
 
