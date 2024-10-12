@@ -20,7 +20,7 @@ public class IntervalListIntersection {
                 temp[1] = Math.min(a[aPointer][1], b[bPointer][1]);
 
                 result.add(temp);
-            }
+            } 
 
             if (a[aPointer][1] > b[bPointer][1]) {
                 bPointer++;
