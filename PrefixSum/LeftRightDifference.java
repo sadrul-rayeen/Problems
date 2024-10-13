@@ -43,7 +43,7 @@ public class LeftRightDifference {
         return result;
     }
     public static void main(String[] args) {
-        int[] arr = { 10, 4, 8, 3 };
+        int[] arr = { 10, 4, 8, 5 };
 
         // int[] result = leftRightDifferenceBruteForce(arr);
         int[] result = leftRightDifferenceBruteForceOptimal(arr);
