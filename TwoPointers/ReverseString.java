@@ -20,7 +20,7 @@ package TwoPointers;
 public class ReverseString {
     // Basically we can solve using two pointers
     public static void main(String[] args) {
-        char[] s = { 'h', 'e', 'l', 'l', 'o' };
+        char[] s = { 'h', 'e', 'l', 'l', 'l' };
         
         int left = 0;
         int right = s.length - 1;
