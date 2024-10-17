@@ -39,7 +39,7 @@ public class RemoveAllAdjacent {
         return sb.toString();
     }
     public static void main(String[] args) {
-        String s = "deeedbbcccbdaa";
+        String s = "deeedbbcccbdaaa";
         int k = 3;
 
         // String result = removeAllAdjacentMethod1(s, k);
