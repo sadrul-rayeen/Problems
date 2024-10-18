@@ -28,7 +28,7 @@ public class LongestPalindrome {
         return res;
     }
     public static void main(String[] args) {
-        String s = "abccccdd";
+        String s = "abccccddd";
 
         int result = findLongest(s);
         System.out.println(result);
