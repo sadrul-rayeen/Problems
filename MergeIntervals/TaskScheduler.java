@@ -32,7 +32,7 @@ public class TaskScheduler {
         return minScheduleLength;
     }
     public static void main(String[] args) {
-        char[] tasks = { 'A', 'A', 'A', 'B', 'B', 'B' };
+        char[] tasks = { 'A', 'A', 'A', 'B', 'B', 'B', 'B'};
         int cooldown = 2;
 
         int result = taskScheduler(tasks, cooldown);
