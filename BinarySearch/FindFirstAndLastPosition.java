@@ -44,9 +44,7 @@ public class FindFirstAndLastPosition {
 
     public static int[] findFirstAndLastPosition(int[] arr, int target) {
         if (arr.length == 0) {
-            int[] output = new int[2];
-            output[0] = -1;
-            output[1] = -1;
+            int[] output = { -1, -1 };
             return output;
         }
         int[] output = new int[2];
