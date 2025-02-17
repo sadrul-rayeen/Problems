@@ -11,9 +11,9 @@ public class Sqrt {
 
         while (left <= right) {
             int mid = left + (right - left) / 2;
-            if ((long) mid * mid == (long) input) {
+            if (mid * mid == input) {
                 return mid;
-            } else if (mid * mid > input) {
+            } else if ((long) mid * mid > (long) input) {
                 right = mid - 1;
             } else {
                 left = mid + 1;
@@ -23,7 +23,7 @@ public class Sqrt {
     }
 
     public static void main(String[] args) {
-        int input = 8;
+        int input = 2147395599;
 
         int result = getSqrt(input);
         System.out.println("result : " + result);
