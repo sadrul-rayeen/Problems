@@ -1,4 +1,4 @@
-package BinarySearch;
+package BinarySearch.search_in_rotated_sorted_array;
 
 public class FindMinInSortedAndRotatedArray {
     public static int findIndex(int[] arr) {
